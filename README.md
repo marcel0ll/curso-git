@@ -1,7 +1,9 @@
 # Curso git
 
-A ideia desse curso é auxiliar o aprendizado de git com uma mistura de teoria e prática.
-O curso consiste de uma série de etapas. As estapas iniciais são puramente de fundamentação e depois mistura teoria e prática para fixação dos conceitos.
+A ideia desse curso é auxiliar o aprendizado de git seguindo as seguintes etapas:
+- motivação : O por que de aprender algo
+- teoria    : O que é isso
+- prática   : Como usar e exercícios de fixação
 
 O curso tem como intenção exigir o mínimo de outras tecnologias que não o próprio git, dessa forma são evitadas 
 qualquer linguagem de programação específica e são utilizados arquivos de texto .txt genéricos para exemplificação.
@@ -15,11 +17,11 @@ O curso está organizado nas seguintes lições:
 
 ## Motivação e fundamentação teórica
 
-1. Motivação para se usar um software de controle de versão
-1. O que é um VCS e quais são as principais diferenças entre git, hg e svn
-1. Quais são os principais elementos e termos do git
+1. [Motivação para se usar um software de controle de versão](parte-1.md)
+1. [Quais são os principais elementos e termos do git](parte-2.md)
     - Repositório
     - Arquivos
+    - Chunks
     - Stage
     - Commit
     - Branch
