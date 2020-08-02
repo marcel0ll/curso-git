@@ -1,10 +1,12 @@
 # Curso git
 
+```
           o-o-o (branch-1)
          /     \
 o-o-o-o-o-o-o-o-o-o-o (main)
          \         /
           o-o-o-o-o (branch-2)
+```
 
 
 A ideia desse curso é auxiliar o aprendizado de git seguindo as seguintes etapas:
@@ -26,6 +28,7 @@ O curso está organizado nas seguintes lições:
 
 1. [Motivação para se usar um software de controle de versão](parte-1.md)
 1. [Quais são os principais elementos e termos do git](parte-2.md)
+    - Arquivo de configuração (.gitconfig)
     - Repositório
     - Stage
     - Arquivos
@@ -34,7 +37,6 @@ O curso está organizado nas seguintes lições:
     - Branch
     - Merge
     - Remote
-    - Arquivo de configuração (.gitconfig)
   
 ## Lições teóricas e práticas
 

@@ -41,11 +41,13 @@ README.md
 
 ## Repositório
 
+```
           o-o-o 
          /     \
 o-o-o-o-o-o-o-o-o-o-o (main)
          \         
           o-o-o-o-o 
+```
 
 
 Um repisório git é uma árvore de arquivos rastreadas pelo git a partir de uma 
@@ -154,11 +156,13 @@ por "-" as linhas removidas
 
 ## Branch
 
+```
       o (feature-1)
      /
     o-o (dev)
    /
 o-o (main)
+```
 
 Como descrito acima, um commit tem commits pais dessa forma toda a estrutura
 do histórico do git pode ser representada por uma árvore. Uma sequência de 
@@ -177,9 +181,11 @@ mudando o branch principal para `main`.
 
 ## Merge
 
+```
           o-o-o 
          /     \
 o-o-o-o-o-o-o-o-o (main)
+```
 
 Um `Merge` é o nome dado quando criamos um commit com mais de um commit pai.
 Ou seja juntamos todas as modificações que existem em um commit com um segundo
