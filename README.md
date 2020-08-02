@@ -15,79 +15,81 @@ A ideia desse curso é auxiliar o aprendizado de git seguindo as seguintes etapa
 - prática   : Como usar e exercícios de fixação
 
 O curso tem como intenção exigir o mínimo de outras tecnologias que não o próprio git, dessa forma são evitadas 
-qualquer linguagem de programação específica e são utilizados arquivos de texto .txt genéricos para exemplificação.
+qualquer linguagem de programação específica e são utilizados arquivos de texto .md para teoria e práticas.
 
 Alguns comandos ou argumentos que facilitam o trabalho do dia a dia serão intencionalmente ignorados até que
 sejam apresentadas boas práticas ao utilizar a ferramenta git.
 
-# Organização
+# Organização do curso
 
 O curso está organizado nas seguintes lições:
 
-## Motivação e fundamentação teórica
+1. [O que é o git e por que eu deveria me importar?](motivacao.md)
 
-1. [Motivação para se usar um software de controle de versão](parte-1.md)
-1. [Quais são os principais elementos e termos do git](parte-2.md)
-    - Arquivo de configuração (.gitconfig)
-    - Repositório
-    - Stage
-    - Arquivos
-    - Chunks
-    - Commit
-    - Branch
-    - Merge
-    - Remote
-  
-## Lições teóricas e práticas
+1. [Configurando o git](configurando-o-git.md)
 
-4. Trabalhando com o stage:
-    - O que é o *stage*?
-    - `git add`
-    - `git reset`
-    - `git diff`
+1. [Diretório de trabalho](diretorio-de-trabalho.md)
+
+1. [O repositório git](repositorio.md)
+
+1. [Trabalhando com o stage](stage.md)
+    - O que é o **stage**?
+    - O que é uma modificação?
+      - Arquivos
+      - Chunks
+    - Comandos
+      - `git add`
+      - `git reset`
+      - `git diff`
     
-5. Trabalhando com um commit:
-    - O que é um *commit*?
-    - `git commit`
-    - `git commit --amend`
-    - `git log`
-    - Boas práticas ao fazer um *commit*
+1. [Trabalhando com um commit:](commit.md)
+    - O que é um **commit**?
+    - Comandos
+      - `git commit`
+      - `git log`
+    - Boas práticas ao criar um **commit**
     
-6. Trabalhando com branchs:
+1. [Trabalhando com branchs:](branch.md)
     - O que é um *branch*?
     - O que é o *HEAD*?
-    - `git branch`
-    - `git branch <new branch name>`
-    - `git checkout`
-    - `git checkout <branch name> -- <file> [...<file>]`
-    
-7. Trabalhando com remotos:
-    - O que é exatamente um *remote*?
-    - `git clone`
-    - `git push`
-    - `git pull`
+    - Comandos
+      - `git branch`
+      - `git checkout`
 
-8. Manipulando branches:
-    - `git merge`
-    - `git rebase`
+1. [Juntando o trabalho:](merge-rebase.md) 
+    - O que é um **merge**?
+    - O que é um **rebase**?
+    - Comandos
+      - `git merge`
+      - `git rebase`
     - O que é um conflito?
     - Resolvendo conflitos
     
-9. Outros comandos / conceitos:
+1. [Local e remotes:](remote.md)
+    - O que é o **local**?
+    - O que é um **remote**?
+    - Comandos:
+      - `git clone`
+      - `git remote`
+      - `git fetch`
+      - `git push`
+      - `git pull`
+    
+1. [Saiba mais](saber-main.md)
     - `git help -a`
-    - O que é o *reflog*?
+    - O que é o **reflog**?
     - `git reflog`
-    - O que é o *stash*?
+    - O que é o **stash**?
     - `git stash`
     - `git stash pop`
-    - O que é *cherry-pick*?
+    - O que é **cherry-pick**?
     - `git cherry-pick <hash>`
-    - O que é *bisect*?
+    - O que é **bisect**?
     - `git bisect`
-    - O que é uma *tag*?
+    - O que é uma **tag**?
     - `git tag`
     
-10. Fluxos de trabalho para git
+1. [Fluxos de trabalho para git](fluxos.md)
     - gitflow
     - Baseado em *merge*
     - Baseado em *rebase*
