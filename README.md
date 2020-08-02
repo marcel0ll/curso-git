@@ -1,4 +1,6 @@
-# Curso git
+# Git: Aprendendo na prática
+
+[Meetup](https://www.meetup.com/opensanca/events/272092986/)
 
 ```
           o-o-o (branch-1)
@@ -91,7 +93,7 @@ O curso está organizado nas seguintes lições:
     
 1. [Fluxos de trabalho para git](fluxos.md)
     - gitflow
-    - Baseado em *merge*
-    - Baseado em *rebase*
+    - Baseado em **merge**
+    - Baseado em **rebase**
 
     
