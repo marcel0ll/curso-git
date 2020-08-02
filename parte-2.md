@@ -66,7 +66,7 @@ trabalho e os arquivos que o git já está ativamente rastreando.
 O fluxo comum do git é adicionar uma modificação ao staging e posteriormente
 armazenar essa mudança no git.
 
-`Pasta de trabalho` -(`git add`)-> `Stage` -(`git commit`)-> `Repositorio`
+**Pasta de trabalho** --`git add`--> **Stage** --`git commit`--> **Repositorio**
 
 ## Arquivos
 
