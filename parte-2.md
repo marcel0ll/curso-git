@@ -8,7 +8,7 @@ Nesse arquivo podem estar configurados diversas opções do seu git, como aliase
 para comandos, qual editor usar para escrever commits, o email e nome de usuário
 padrão, etc.
 
-```
+```Git Config
 ; isso é um comentário
 [alias]
 	st = status
@@ -77,7 +77,7 @@ Um arquivo do próprio sistema de arquivos
 Um `Chunk` é um pedaço de um arquivo que representa uma modificação, normalmente
 é representado pelas linhas de código que nele foram modificados.
 
-```
+```Diff
 index e88cbe0..0ac7c5c 100644
 --- a/README.md
 +++ b/README.md
