@@ -70,7 +70,7 @@ O curso está organizado nas seguintes lições:
     - O que é um conflito?
     - Resolvendo conflitos
     
-1. [Local e remotes:](remote.md)
+1. [Local e remotes:](local-remote.md)
     - O que é o **local**?
     - O que é um **remote**?
     - Comandos:
@@ -80,8 +80,7 @@ O curso está organizado nas seguintes lições:
       - `git push`
       - `git pull`
     
-1. [Saiba mais](saber-main.md)
-    - `git help -a`
+1. [Saiba mais](saber-mais.md)
     - O que é o **reflog**?
     - `git reflog`
     - O que é o **stash**?
