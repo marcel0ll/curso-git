@@ -1,4 +1,4 @@
-# Trabalhando com um commit
+# A base de tudo, o **commit**
 
 ## O que é um **commit**?
 

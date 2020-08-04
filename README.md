@@ -34,7 +34,7 @@ O curso está organizado nas seguintes lições:
 
 1. [O repositório git](repositorio.md)
 
-1. [Trabalhando com o stage](stage.md)
+1. [Trabalhando com o **stage**](stage.md)
     - O que é o **stage**?
     - O que é uma modificação?
       - Arquivos
@@ -44,7 +44,7 @@ O curso está organizado nas seguintes lições:
       - `git reset`
       - `git diff`
     
-1. [Trabalhando com um commit:](commit.md)
+1. [A base de tudo, o **commit**:](commit.md)
     - O que é um **commit**?
     - Comandos
       - `git commit`
