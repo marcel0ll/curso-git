@@ -95,7 +95,7 @@ na execução das tarefas listadas.
       - `git push`
       - `git pull`
     
-1. [Saiba mais](saber-mais.md)
+1. [Saiba mais:](saber-mais.md)
     - O que é o **reflog**?
       - `git reflog`
     - O que é o **stash**?
@@ -105,8 +105,9 @@ na execução das tarefas listadas.
       - `git cherry-pick`
     - O que é **bisect**?
       - `git bisect`
+    - O que são **hooks**?
     
-1. [Fluxos de trabalho para git](fluxos.md)
+1. [Fluxos de trabalho para git:](fluxos.md)
     - gitflow
     - Baseado em **merge**
     - Baseado em **rebase**
