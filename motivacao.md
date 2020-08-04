@@ -7,31 +7,46 @@ O git é um desses softwares de controle de versão, existem outros menos usados
 como [mercurial](https://www.mercurial-scm.org/) e 
 [subversion](https://subversion.apache.org/).
 
-Um software de controle de versões ajuda a você criar um histórico de todas as 
-modificações que foram feitas em um ou mais arquivos, normalmente usado em um 
-diretório que representa um projeto.
-
-O git também é uma ótima forma de trabalhar em equipes em um mesmo projeto.
-
 Se você alguma vez teve um arquivo chamado entrega_final_3b.docx, você teria
-se beneficiado usando o git.
+tido beneficios usando o git, ou qualquer outro software de versionamento.
 
-Esse curso tem a intenção de explicar as vantagens de usar git em seus projetos
-e incentivar que você busque por si saber mais sobre essa ferramenta incrível.
+Um software de controle de versões ajuda a você criar um histórico de todas as 
+modificações que foram feitas em um ou mais arquivos, a partir de um diretório
+raiz, o diretório de trabalho.
+
+Softwares de controle de versão também são um ótimo instrumento para colaboração
+no desenvolvimento de projetos, uma vez que cada um pode trabalhar no seu próprio
+conjunto de modificações e posteriormente usar o software de controle de versão
+para unificar essas mudanças.
+
+Esse curso tem a intenção de explicar as vantagens de usar git em seus projetos,
+explicar quais são as partes mais básicas do git e incentivar que você busque
+por si saber mais sobre essa ferramenta incrível.
+
 Por mais que eu quisesse seria impossível passar por todos os comandos e suas
-opções em poucas horas.
+opções em poucas horas e muitos desses comandos são específicos à maneira como
+você irá usar a ferramenta. Alguns desses comandos eu nunca cheguei a usar.
 
 O fluxo padrão de uso do git consiste em adicionar quais arquivos o git deve 
 manter versionado, adicionar as modificações, salvar estágios do software e 
 compartilhar com colegas esses estágios. Para executar essas tarefas básicas
 são usados os seguintes comandos:
+
 - git add
 - git commit
 - git push
+- git pull 
+
+Mas saber cegamente executar alguns comandos não faz com que você entenda o
+como a ferramenta funciona e no primeiro momento que ela não responde como 
+desejado ficamos perdidos porque não sabemos de fato os fundamentos da ferramenta.
+
+Por essas razões esse curso tem a intençaõ de ir mais a fundo do que só pincelar
+o como usar alguns comandos.
 
 Abaixo segue a saída do comando `git help -a`, com todos os comandos que a 
-ferramenta possui. No dia a dia são usadas algumas poucas, mas é importante 
-saber que a ferramenta tem muito a oferecer.
+ferramenta possui. No dia a dia são usadas alguns poucos, mas é importante 
+saber que a ferramenta tem muito mais a oferecer.
 
 ```sh
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
