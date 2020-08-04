@@ -51,11 +51,14 @@ O curso está organizado nas seguintes lições:
       - `git log`
     - Boas práticas ao criar um **commit**
     
-1. [Trabalhando com branchs:](branch.md)
-    - O que é um *branch*?
-    - O que é o *HEAD*?
+1. [Dividir para conquistar:](branch.md)
+    - O que é um **ref**?
+    - O que é um **branch**?
+    - O que é uma **tag**?
+    - O que é o **HEAD**?
     - Comandos
       - `git branch`
+      - `git tag`
       - `git checkout`
 
 1. [Juntando o trabalho:](merge-rebase.md) 
@@ -88,8 +91,6 @@ O curso está organizado nas seguintes lições:
     - `git cherry-pick <hash>`
     - O que é **bisect**?
     - `git bisect`
-    - O que é uma **tag**?
-    - `git tag`
     
 1. [Fluxos de trabalho para git](fluxos.md)
     - gitflow
