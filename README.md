@@ -129,9 +129,6 @@ na execução das tarefas listadas.
     - O que são **hooks**?
     
 1. [Fluxos de trabalho para git](fluxos.md)
-    - gitflow
-    - Baseado em **merge**
-    - Baseado em **rebase**
 
 ## 2. Prática
 

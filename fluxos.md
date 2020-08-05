@@ -1,8 +1,8 @@
 # Fluxos de trabalho para git:
 
-- gitflow
-- Baseado em *merge*
-- Baseado em *rebase*
+Para saber mais sobre fluxos de trablho de git leia [isso](https://www.atlassian.com/git/tutorials/comparing-workflows)
+
+No futuro essa seção será melhor detalhada
 
 ---
 
