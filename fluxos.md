@@ -1,4 +1,4 @@
-# Fluxos de trabalho para git]
+# Fluxos de trabalho para git:
 
 - gitflow
 - Baseado em *merge*
