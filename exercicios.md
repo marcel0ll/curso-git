@@ -69,6 +69,7 @@ Edite corpo do README
 ```
 git clone <sua-url> pc2-curso-git-ex-1
 ```
+* Mude para pasta pc2-curso-git-ex1
 * Editar arquivo README.md:
 ```
 # Tarefa 1 do curso
