@@ -53,6 +53,35 @@ Changes not staged for commit:
 E pronto, o git já criou a sua pasta `.git/` e nós já podemos começar a 
 adicionar arquivos a este repositório.
 
+## O diretório .git/
+
+```
+.git/
+  branches
+  COMMIT_EDITMSG
+  config
+  description
+  FETCH_HEAD
+  HEAD
+  hooks
+  index
+  info
+  logs
+  objects
+  ORIG_HEAD
+  packed-refs
+  refs
+```
+
+Normalmente não olhamos para dentro da pasta `.git/`, pois ela é um diretório 
+escondido e que serve de base de dados para o seu repositório e não queremos 
+quebrar nada mexendo em algo que devemos, mas para entender de fato como o
+git funciona é necessário se aventurar um pouco e abrir os arquivos desse
+diretório.
+
+No momento deixo aqui explícito os arquivos e pastas para posteriormente 
+mencioná-los novamente.
+
 ## Comandos
 
 ### `git init`
@@ -62,6 +91,17 @@ Comando que inicializa estrutura para o git dentro da pasta `.git/`
 ### `git status`
 
 Comando para checar o estado atual de nosso repositório
+
+---
+
+Siga junto:
+
+```
+mkdir curso-git
+cd curso-git
+git init
+git status
+```
 
 ---
 

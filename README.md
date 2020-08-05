@@ -42,16 +42,24 @@ na execução das tarefas listadas.
 ## 1. Aula
 
 1. [O que é o git e por que eu deveria me importar?](motivacao.md)
+    - As duas ferramentas mais impotantes
+    - Sistema de controle de versões (vcs)
+    - O dia a dia
+    - Comandos
+      - `git help`
 
 1. [Visão geral do git](visao-geral.md)
 
 1. [Configurando o git](configurando-o-git.md)
+    - Configurações Globais
+    - Configurações Locais
 
 1. [Diretório de trabalho](diretorio-de-trabalho.md)
 
 1. [O repositório git](repositorio.md)
     - Iniciando um repositório
     - Checando o resporitório
+    - O diretório git
     - Comandos
       - `git init`
       - `git status`
@@ -124,4 +132,7 @@ na execução das tarefas listadas.
 TODO: escrever exercícios e preparar o repositório para isso, com branchs a serem mergiados (com e sem conflito),
 tags, e etc
 
+1. Em cada um das seções da aula tem uma pequena parte detacada com "Faça você mesmo:", siga essas etapas.
+
 1. [Exercícios](exercicios.md)
+

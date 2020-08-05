@@ -42,17 +42,6 @@ stage.md
   refs
 ```
 
-## O diretório .git/
-
-Normalmente não olhamos para dentro da pasta `.git/`, pois ela é um diretório 
-escondido e que serve de base de dados para o seu repositório e não queremos 
-quebrar nada mexendo em algo que devemos, mas para entender de fato como o
-git funciona é necessário se aventurar um pouco e fuçar nos arquivos desse
-diretório.
-
-No momento deixo aqui explícito os arquivos e pastas para posteriormente 
-mencioná-los novamente.
-
 ---
 
 [Anterior](configurando-o-git.md)

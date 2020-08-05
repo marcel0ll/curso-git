@@ -1,10 +1,16 @@
 # O que é o git e por que eu deveria me importar?
 
+## As duas ferramentas mais importantes
+
 Existem duas ferramentas que desenvolvedores usam diariamente, na maioria de 
 seus projetos: um editor de texto e um software de controle de versão.
 
-O git é um desses softwares de controle de versão, existem outros menos usados
-como [mercurial](https://www.mercurial-scm.org/) e 
+Sendo assim, é muito importante que se tenha domínio dessas ferramentas.
+
+## Sistema de controle de versões (vcs)
+
+O git é um desses softwares de controle de versão, existem outros atualmente
+menos usados como [mercurial](https://www.mercurial-scm.org/) e 
 [subversion](https://subversion.apache.org/).
 
 Se você alguma vez teve um arquivo chamado entrega_final_3b.docx, você teria
@@ -27,6 +33,8 @@ Por mais que eu quisesse seria impossível passar por todos os comandos e suas
 opções em poucas horas e muitos desses comandos são específicos à maneira como
 você irá usar a ferramenta. Alguns desses comandos eu nunca cheguei a usar.
 
+## O dia a dia
+
 O fluxo padrão de uso do git consiste em adicionar quais arquivos o git deve 
 manter versionado, adicionar as modificações, salvar estágios do software e 
 compartilhar com colegas esses estágios. Para executar essas tarefas básicas
@@ -46,7 +54,8 @@ o como usar alguns comandos.
 
 Abaixo segue a saída do comando `git help -a`, com todos os comandos que a 
 ferramenta possui. No dia a dia são usadas alguns poucos, mas é importante 
-saber que a ferramenta tem muito mais a oferecer.
+saber que a ferramenta tem muito mais a oferecer e o help é o melhor lugar
+para procurar saber mais.
 
 ```sh
 usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
@@ -137,6 +146,14 @@ available git commands in '/usr/lib/git-core'
 concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ```
+
+## Comandos
+
+### `git help` 
+
+O seu melhor amigo na hora de usar o git, dentro desta ferramenta contém toda
+a documentação mais atualizada para a sua versão do git. Não se assute com a 
+interface do terminal.
 
 ---
 

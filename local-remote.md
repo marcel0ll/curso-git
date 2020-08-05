@@ -43,12 +43,27 @@ em relação ao seu remote.
 
 ### `git push`
 
-O git push envia os commits no branch atual para o remoto 
+O git push envia os commits no branch atual para um branch remoto.
 
 ### `git pull`
 
 O git pull pega os commits novos do seu remoto para o seu branch local
 No fundo um pull executa um fetch e um merge do branch remoto com o branch local.
+
+---
+
+## Faça você mesmo:
+
+- Crie um repositório novo em um servidor como o github
+- Copie a url do repositório
+
+```
+git remote add origin <url>
+git push --set-upstream origin master
+
+```
+
+- Olhe seu repositório no github.
 
 ---
 

@@ -78,7 +78,7 @@ o-o-o-o-o-o-o-o-o (main)
 
 ### `git merge`
 
-O git merge junta dois ou mais commits e suas modificações em um único ponto.
+O git merge junta duas ou mais linhas de trabalho e suas modificações em um único ponto.
 
 ### `git rebase`
 
@@ -102,6 +102,14 @@ ao stage e continuar o comando que estava sendo executado.
 
 ```
 TODO: colocar aqui o conflito acima resolvido
+```
+---
+  Faça você mesmo:
+
+```
+git checkout master
+git merge dev
+git log
 ```
 
 ---

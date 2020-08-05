@@ -73,5 +73,12 @@ desde o último commit. Ou a diferença entre dois commits.
 
 ---
 
+  Faca você Mesmo:
+
+- Crie um novo arquivo
+- E adicione no stage
+
+---
+
 [Anterior](repositorio.md)
 [Pŕoximo](commit.md)

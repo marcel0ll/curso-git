@@ -1,6 +1,5 @@
 # Saiba mais
 
-- `git help -a`
 - O que é o *reflog*?
 - `git reflog`
 - O que é o *stash*?

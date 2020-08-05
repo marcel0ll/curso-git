@@ -126,6 +126,17 @@ Note que além do título da mensagem também temos o corpo da mensagem para det
 histórico do repositório e sabermos o que e quando fizemos certas modificações.
 
 ---
+  Faça você mesmo:
+
+```
+git commit
+```
+```
+Crie novo arquivo README.me
+
+Iniciando o nosso curso com um commit descritivo
+```
+---
 
 [Anterior](stage.md)
 [Pŕoximo](branch.md)

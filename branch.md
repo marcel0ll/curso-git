@@ -108,5 +108,21 @@ mudando o contexto da nossa pasta de trabalho.
 
 ---
 
+  Faça você mesmo:
+
+```
+git tag inicio
+git tag
+
+git branch dev
+git checkout dev
+```
+
+- Edite o arquivo README.md
+- Adicione modificação ao **stage**
+- Crie um novo commit
+
+---
+
 [Anterior](commit.md)
 [Pŕoximo](merge-rebase.md)

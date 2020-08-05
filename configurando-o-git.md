@@ -1,16 +1,16 @@
-## Configurando o git
+# Configurando o git
 
 O git possui diversas configurações globais que podem ser encontradas em `~/.gitconfig`
 e também diversas configurações locais que se encontram dentro da pasta `.git/` de cada
 repositório.
 
 
-### Configurações Globais
+## Configurações Globais
 
 Para começarmos a usar o git é necessário configurar o seu usuário globalmente para que
 o git possa registrar a cada etapa QUEM foi o AUTOR das modificações.
 
-Para isso precisamos configurar o seu `email` e seu nome(`name`) de usuário:
+Para isso precisaremos configurar o seu `email` e seu nome(`name`) de usuário:
 
 ```sh
 git config --global user.email "<seu.endereço.de@email.com>"
@@ -47,12 +47,21 @@ que o que configuramos nos comandos acima agora estão registrados aqui.
 	graph = log --all --graph --abbrev-commit --author-date-order --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)'
 ```
 
-### Configurações Locais (em cada repositório)
+## Configurações Locais (em cada repositório)
 
 No momento não cabe entrar em muitos detalhes do que é possível configurar
 no arquivo `.git/config` e nos outros arquivos da pasta `.git`, mas é importante
 saber que elas existem. Em outras partes do curso, iremos voltar a comentar sobre
 essas configurações locais.
+
+---
+
+  Faça você mesmo:
+
+```sh
+git config --global user.email "<seu.endereço.de@email.com>"
+git config --global user.name "<seu_nome_de_usuario>"
+```
 
 ---
 
