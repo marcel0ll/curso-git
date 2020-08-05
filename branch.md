@@ -42,6 +42,14 @@ Podemos ver isso dentro da pasta `.git/refs/`, como por exemplo o arquivo
 ed6dcbdb79e2c3867f9f52f42bfcbd432c3ef86e
 ```
 
+## O que é uma **tag**?
+
+Uma tag é uma referência a um commit que não esperamos alterar, diferente do branch
+que esperamos que a cada novo commit a referência seja atualizada, uma tag é feito
+para nomear um commit específico e não uma linha de trabalho.
+
+Olhar pasta `.git/refs/tags`
+
 ## O que é um **branch**?
 
 Um branch é um ramo da árvore do git, em outras palavras, é uma linha de trabalho
@@ -52,14 +60,6 @@ branch é um nome que damos a uma linha que queremos que seja atualizado a cada
 novo commit.
 
 Olhar pasta `.git/refs/heads`
-
-## O que é uma **tag**?
-
-Uma tag é uma referência a um commit que não esperamos alterar, diferente do branch
-que esperamos que a cada novo commit a referência seja atualizada, uma tag é feito
-para nomear um commit específico e não uma linha de trabalho.
-
-Olhar pasta `.git/refs/tags`
 
 ## O que é o **HEAD**?
 
