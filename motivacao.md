@@ -157,4 +157,5 @@ interface do terminal.
 
 ---
 
+[Anterior](README.md)
 [Próximo](visao-geral.md)
