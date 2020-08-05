@@ -41,6 +41,8 @@ O fetch busca todas as modificações e referências que estão registradas no r
 e as tras para o seu repositório local. Permitindo dessa forma atualizar o seu local
 em relação ao seu remote.
 
+Demonsrando o git fetch
+
 ### `git push`
 
 O git push envia os commits no branch atual para um branch remoto.
