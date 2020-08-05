@@ -50,8 +50,13 @@ na execução das tarefas listadas.
 1. [Diretório de trabalho](diretorio-de-trabalho.md)
 
 1. [O repositório git](repositorio.md)
+    - Iniciando um repositório
+    - Checando o resporitório
+    - Comandos
+      - `git init`
+      - `git status`
 
-1. [Trabalhando com o **stage**](stage.md)
+1. [Preparando o **stage**](stage.md)
     - O que é o **stage**?
     - O que é uma modificação?
       - Arquivos
@@ -61,14 +66,14 @@ na execução das tarefas listadas.
       - `git reset`
       - `git diff`
     
-1. [A base de tudo, o **commit**:](commit.md)
+1. [A base de tudo, o **commit**](commit.md)
     - O que é um **commit**?
     - Comandos
       - `git commit`
       - `git log`
     - Boas práticas ao criar um **commit**
     
-1. [Dividir para conquistar:](branch.md)
+1. [Dividir para conquistar!](branch.md)
     - O que é um **ref**?
     - O que é um **branch**?
     - O que é uma **tag**?
@@ -78,7 +83,7 @@ na execução das tarefas listadas.
       - `git tag`
       - `git checkout`
 
-1. [Juntando o trabalho:](merge-rebase.md) 
+1. [Juntando o trabalho](merge-rebase.md) 
     - O que é um **merge**?
     - O que é um **rebase**?
     - Comandos
@@ -87,7 +92,7 @@ na execução das tarefas listadas.
     - O que é um conflito?
     - Resolvendo conflitos
     
-1. [Local e remotes:](local-remote.md)
+1. [Local e remotes](local-remote.md)
     - O que é o **local**?
     - O que é um **remote**?
     - Comandos:
@@ -97,19 +102,19 @@ na execução das tarefas listadas.
       - `git push`
       - `git pull`
     
-1. [Saiba mais:](saber-mais.md)
+1. [Saiba mais](saber-mais.md)
     - O que é o **reflog**?
       - `git reflog`
     - O que é o **stash**?
       - `git stash`
-    - `git stash pop`
+      - `git stash pop`
     - O que é **cherry-pick**?
       - `git cherry-pick`
     - O que é **bisect**?
       - `git bisect`
     - O que são **hooks**?
     
-1. [Fluxos de trabalho para git:](fluxos.md)
+1. [Fluxos de trabalho para git](fluxos.md)
     - gitflow
     - Baseado em **merge**
     - Baseado em **rebase**
