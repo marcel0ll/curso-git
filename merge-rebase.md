@@ -92,7 +92,14 @@ dessa forma ele cria certos separados nos arquivos de texto para que manualmente
 resolvidos como os arquivos devem ficar.
 
 ```
-TODO: colocar aqui o output de um conflito
+<<<<<<< HEAD
+# Tarefa 1 do curso
+=======
+# Exercício 1 do curso git
+>>>>>>> dev
+
+Escreva um texto abaixo do título como desejar
+Editção do corpo do texto
 ```
 
 ## Resolvendo conflitos
@@ -101,8 +108,12 @@ Para resolver o conflito, basta editar os arquivos da forma que deseja que fique
 ao stage e continuar o comando que estava sendo executado.
 
 ```
-TODO: colocar aqui o conflito acima resolvido
+# Exercício 1 do curso git
+
+Escreva um texto abaixo do título como desejar
+Editção do corpo do texto
 ```
+
 ---
   Faça você mesmo:
 

@@ -38,6 +38,8 @@ Nessa etapa durante o curso o instrutor deve mostrar por cima o uso do git e com
 1. Resolver conflito
 1. Mandar modificações para o github
 
+Ao finalizar a lista de passos acima, postar o link de seu repositório público no [github](https://github.com/marcel0ll/curso-git/issues/1)
+
 ---
 
 [Anterior](fluxos.md)
