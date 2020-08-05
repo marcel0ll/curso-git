@@ -7,6 +7,8 @@
 1. Criar commit 
 1. Enviar modificação ao github
 
+Editado durante o curso
+
 ---
 
 [Anterior](motivacao.md)
