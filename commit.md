@@ -125,6 +125,13 @@ Note que além do título da mensagem também temos o corpo da mensagem para det
 É muito importante escrever mensagens descritivas para posteriormente, se necessário, navegarmos pelo
 histórico do repositório e sabermos o que e quando fizemos certas modificações.
 
+## Padrões de commit
+
+Existem times que adotam padrões específicos para a escrita de seus commits, o que foge
+do escopo deste curso, mas fica aqui a referência para alguns desses padrões:
+
+- [Convetional commits](https://www.conventionalcommits.org/en/v1.0.0-beta.2/)
+
 ---
   Faça você mesmo:
 

@@ -111,6 +111,12 @@ na execução das tarefas listadas.
       - `git pull`
     
 1. [Saiba mais](saber-mais.md)
+    - Padrões de commit
+      - Convertional commits
+    - Nomeando versões
+      - Semantic versioning
+    - Quem foi que fez isso?!?
+      - `git blame`
     - O que é o **reflog**?
       - `git reflog`
     - O que é o **stash**?
@@ -129,10 +135,9 @@ na execução das tarefas listadas.
 
 ## 2. Prática
 
-TODO: escrever exercícios e preparar o repositório para isso, com branchs a serem mergiados (com e sem conflito),
-tags, e etc
+1. [Faça você mesmo](faca-voce-mesmo.md)
 
-1. Em cada um das seções da aula tem uma pequena parte detacada com "Faça você mesmo:", siga essas etapas.
+Em cada um das seções da aula tem uma pequena parte detacada com "Faça você mesmo:", siga essas etapas.
 
 1. [Exercícios](exercicios.md)
 
