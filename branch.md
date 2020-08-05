@@ -105,3 +105,8 @@ está apontando no momento de sua execução.
 
 O comando checkout muda o valor da referência do **HEAD**, efetivamente
 mudando o contexto da nossa pasta de trabalho.
+
+---
+
+[Anterior](commit.md)
+[Pŕoximo](merge-rebase.md)

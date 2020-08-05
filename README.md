@@ -43,6 +43,8 @@ na execução das tarefas listadas.
 
 1. [O que é o git e por que eu deveria me importar?](motivacao.md)
 
+1. [Visão geral do git](visao-geral.md)
+
 1. [Configurando o git](configurando-o-git.md)
 
 1. [Diretório de trabalho](diretorio-de-trabalho.md)
@@ -116,3 +118,5 @@ na execução das tarefas listadas.
 
 TODO: escrever exercícios e preparar o repositório para isso, com branchs a serem mergiados (com e sem conflito),
 tags, e etc
+
+1. [Exercícios](exercicios.md)

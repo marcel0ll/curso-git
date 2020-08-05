@@ -12,3 +12,8 @@
 - `git bisect`
 - O que é uma *tag*?
 - `git tag`
+
+---
+
+[Anterior](local-remote.md)
+[Pŕoximo](fluxos.md)

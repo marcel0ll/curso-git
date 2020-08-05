@@ -31,3 +31,7 @@ git init
 E pronto, o git já criou a sua pasta `.git/` e nós já podemos começar a 
 adicionar arquivos a este repositório.
 
+---
+
+[Anterior](diretorio-de-trabalho.md)
+[Pŕoximo](stage.md)

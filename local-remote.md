@@ -50,5 +50,7 @@ O git push envia os commits no branch atual para o remoto
 O git pull pega os commits novos do seu remoto para o seu branch local
 No fundo um pull executa um fetch e um merge do branch remoto com o branch local.
 
+---
 
-
+[Anterior](merge-rebase.md)
+[Pŕoximo](saber-mais.md)

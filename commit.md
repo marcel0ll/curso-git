@@ -124,3 +124,8 @@ Note que além do título da mensagem também temos o corpo da mensagem para det
 
 É muito importante escrever mensagens descritivas para posteriormente, se necessário, navegarmos pelo
 histórico do repositório e sabermos o que e quando fizemos certas modificações.
+
+---
+
+[Anterior](stage.md)
+[Pŕoximo](branch.md)

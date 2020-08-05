@@ -70,3 +70,8 @@ O git reset remove modificações do stage
 
 O git diff mostra as modificações que foram feitas no diretório de trabalho
 desde o último commit. Ou a diferença entre dois commits.
+
+---
+
+[Anterior](repositorio.md)
+[Pŕoximo](commit.md)

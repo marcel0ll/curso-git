@@ -72,7 +72,7 @@ Arvore do git após rebase
                  /     
 o-o-o-o-o-o-o-o-o (main)
 
-`
+```
 
 ## Comandos
 
@@ -103,3 +103,8 @@ ao stage e continuar o comando que estava sendo executado.
 ```
 TODO: colocar aqui o conflito acima resolvido
 ```
+
+---
+
+[Anterior](branch.md)
+[Pŕoximo](local-remote.md)

@@ -52,3 +52,8 @@ diretório.
 
 No momento deixo aqui explícito os arquivos e pastas para posteriormente 
 mencioná-los novamente.
+
+---
+
+[Anterior](configurando-o-git.md)
+[Pŕoximo](repositorio.md)

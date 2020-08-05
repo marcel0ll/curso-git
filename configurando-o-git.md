@@ -53,3 +53,8 @@ No momento não cabe entrar em muitos detalhes do que é possível configurar
 no arquivo `.git/config` e nos outros arquivos da pasta `.git`, mas é importante
 saber que elas existem. Em outras partes do curso, iremos voltar a comentar sobre
 essas configurações locais.
+
+---
+
+[Anterior](visao-geral.md)
+[Pŕoximo](diretorio-de-trabalho.md)
