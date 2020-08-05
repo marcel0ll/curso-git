@@ -79,6 +79,23 @@ O reflog é similar ao log, mas em vez de listar commits ele lista as mudanças 
 
 ### `git reflog`
 
+Comando que lista modificações às suas referências
+
+`git reflog -10`
+
+```
+3ee69bc HEAD@{0}: commit: Preencha seção saber-mais.md
+ca790df HEAD@{1}: commit: Mude ordem de tag e branch
+cb014ca HEAD@{2}: reset: moving to HEAD
+cb014ca HEAD@{3}: commit: Mude nome do arquivo para exercicio-1
+abcc793 HEAD@{4}: commit: Atualize fluxos de trabalho com git
+3b1a7fa HEAD@{5}: reset: moving to HEAD
+3b1a7fa HEAD@{6}: commit: Adicione passo para mudança de diretório do projeto clonado
+e4b31b9 HEAD@{7}: commit: Remova arquivo chunks.md
+7593f38 HEAD@{8}: commit: Mude exercicio de lista ordenada para lista de pontos
+a23a48b HEAD@{9}: commit: Simplifique visao geral
+```
+
 ##  O que é o **stash**?
 
 O stash é um salva vidas para quando você tem algumas modificações no seu repositório e quer trocar de branchs sem ter
