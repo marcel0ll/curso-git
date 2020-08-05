@@ -138,7 +138,14 @@ concept guides. See 'git help <command>' or 'git help <concept>'
 to read about a specific subcommand or concept.
 ```
 
-<div style="display: flex; justify-content: space-between;">
-           <span> a </span>
-           <span> b </span>
+<style type="text/css">
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+</style>
+<div class="flex">
+           <span> Anterior </span>
+           <span> Próximo </span>
 </div>
