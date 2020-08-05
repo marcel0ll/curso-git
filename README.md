@@ -132,9 +132,5 @@ na execução das tarefas listadas.
 
 ## 2. Prática
 
-1. [Faça você mesmo](faca-voce-mesmo.md)
-
-Em cada um das seções da aula tem uma pequena parte detacada com "Faça você mesmo:", siga essas etapas.
-
-1. [Exercícios](exercicios.md)
+1. [Exercício 1](exercicio-1.md)
 
