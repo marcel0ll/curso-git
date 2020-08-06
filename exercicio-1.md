@@ -65,7 +65,7 @@ Edite corpo do README
 ```
 * Mostrar log
 * Mandar para remote as mudanças local/dev
-* Clonar repositorio em outra pasta `pc2-curso-git-ex-1`
+* Clonar repositório em outra pasta `pc2-curso-git-ex-1`
 ```
 git clone <sua-url> pc2-curso-git-ex-1
 ```
