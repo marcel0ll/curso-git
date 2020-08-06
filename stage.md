@@ -4,7 +4,7 @@
 
 Como dito antes, é necessário ordenar de forma explícita para o git quais arquivos
 ele deve rastrear dentro da sua pasta de trabalho e isso acontece basicamente como
-se fossemos tirar uma foto para recordação: preparamos o cenário com as pessoas
+se fôssemos tirar uma foto para recordação: preparamos o cenário com as pessoas
 ou objetos e tiramos uma foto desse palco.
 
 Dentro do git o palco é o **stage** e a foto é um **commit**.
@@ -23,12 +23,12 @@ Um conceito importante é que o git não salva ARQUIVOS de fato, ele salva MODIF
 em arquivos. Os arquivos e pastas são representados e inferidos a partir dessas 
 modificações feitas.
 
-Essas modificações podem ser represnetadas por chunks de diff. Os quais temos um
-exemplo mais abaixo.
+Essas modificações podem ser representadas por chunks de diff. Temos um
+exemplo deles mais abaixo.
 
 Esse é o motivo pelo qual o git não armazena diretórios vazios. Dado que eles não 
-possuem conteúdo para ser modificado o git não tem o que armazenar, logo se você
-adicionar uma pasta ao seu projeto e ela não tiver pelo menos um arquivo dentro
+possuem conteúdo para ser modificado, o git não tem o que armazenar. Logo, se você
+adicionar uma pasta ao seu projeto e ela não tiver pelo menos um arquivo dentro,
 essa pasta não estará dentro do seu repositório.
 
 ### Arquivos
@@ -37,8 +37,8 @@ Um arquivo do próprio sistema de arquivos
 
 ### Chunks
 
-Um `Chunk` é um pedaço de um arquivo que representa uma modificação, é representado 
-pelas linhas que foram modificados no arquivo.
+Um `Chunk` é um pedaço de um arquivo que representa uma modificação. É representado 
+pelas linhas que foram modificadas no arquivo.
 
 ```
 index e88cbe0..0ac7c5c 100644
