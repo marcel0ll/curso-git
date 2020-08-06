@@ -2,7 +2,7 @@
 
 ## O que é um **commit**?
 
-Um **commit** é como uma FOTO, a diferença é que nessa foto só tem as diferenças 
+Um **commit** é como uma FOTO. Mas nela só vemos as diferenças 
 entre a última foto e o momento atual dos arquivos RASTREADOS pelo git.
 
 Cada **commit** tem um id único representado por um hash, seus commits pais, 
@@ -10,7 +10,7 @@ um autor, a data de criação, um título, uma mensagem e também todas as
 modificações em relação ao seu commit pai.
 
 Um **commit** é de longe a parte mais importante de se entender, porque todo
-o resto que iremos ver dervia de como esse commit é estruturado.
+o resto que iremos ver deriva de como esse commit é estruturado.
 
 Aqui podemos ver o output do comando `git log` e as informações mais básicas
 do commit.
@@ -75,36 +75,36 @@ index e88cbe0..0ac7c5c 100644
 ### `git commit`
 
 O comando commit cria uma foto das modificações que estão nesse momento
-em stage. Quando usamos esse comando automaticamente é aberto o editor
+em stage. Quando usamos esse comando automaticamente, é aberto o editor
 configurado globalmente. No meu caso, é aberto o Vim.
 
 ### `git log`
 
-O comando log mostra o histórico de commits e as informações destes.
-O como é impresso o log e quanto de informação mostrar é configurável
-atravez de diversas opções.
+O comando log mostra o histórico de commits e as informações deles.
+Como é impresso o log e quanto de informação mostrar podem ser configurados
+através de diversas opções.
 
 ## Boas práticas ao criar um **commit**
 
-De forma geral o ideia é quen um **commit** agrupe modificações que façam
-sentido juntas, mas no dia a dia quando estamos modificando nossos arquivos
-nem sempre mexemos em somento um contexto. Vamos criar um formulário de login,
+De forma geral, a ideia é qun um **commit** agrupe modificações que façam
+sentido juntas, mas no dia a dia, quando estamos modificando nossos arquivos,
+nem sempre mexemos em somente um contexto. Vamos criar um formulário de login,
 mas também editamos a cor do botão.
 
-O ideal é que separemos essas modificações pelo menos 2 partes:
+O ideal é que separemos essas modificações pelo menos em 2 partes:
 1. As mudanças do formulário
 2. As mudanças de estilo do botão
 
-Para isso o git nos permite manipluar as modificações de formas a serem adicionadas
+Para isso, o git nos permite manipular as modificações de forma a serem adicionadas
 ou removidas do stage de forma interativa com as flags --patch ou --interactive
 sobre os comandos add e reset.
 
-No momento iremos focar no --patch, mas fica como curiosidade a flag --interactive.
+No momento, iremos focar no --patch, mas fica como curiosidade a flag --interactive.
 
-O comando add/remove --patch (ou -p), nos faz passar por todos os chunks de modificações
+O comando add/remove --patch (ou -p) nos faz passar por todos os chunks de modificações
 do diretório de trabalho onde podemos cirurgicamente adicionar só as partes que nos interessam.
 
-Dessa forma conseguimos criar um commit para cada ideia.
+Dessa forma, conseguimos criar um commit para cada ideia.
 
 Na hora de dar nome aos commits, tome o cuidado necessário para descrever o que foi feito. 
 É costume escrever as mensagens de commit de forma imperativa e não no passado:
@@ -120,7 +120,7 @@ Date:   Tue Aug 4 15:19:13 2020 -0300
     arquivos.
 ```
 
-Note que além do título da mensagem também temos o corpo da mensagem para detalhar o o que foi feito.
+Note que além do título da mensagem também temos o corpo da mensagem para detalhar o que foi feito.
 
 É muito importante escrever mensagens descritivas para posteriormente, se necessário, navegarmos pelo
 histórico do repositório e sabermos o que e quando fizemos certas modificações.
