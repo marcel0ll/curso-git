@@ -1,6 +1,6 @@
 # Saiba mais
 
-Lembre de sempre que tiver uma dúvida sobre um comando olhara a documentação usando:
+Sempre que tiver uma dúvida sobre um comando, lembre-se de olhar a documentação usando:
 
 ```
 git help <comando>
@@ -17,16 +17,16 @@ do escopo deste curso, mas fica aqui a referência para alguns desses padrões:
 
 ## Nomeando versões
 
-Existem padrões de como você deve nomear a versão do seu software, cada projeto
-pode adotar o seu próprio e segue aqui alguns destes:
+Existem padrões de como você deve nomear a versão do seu software. Cada projeto
+pode adotar o seu próprio e seguem aqui alguns deles:
 
 - [Semantic Versioning](https://semver.org/)
 
 ## O que são **hooks**?
 
-Hooks são gatilhos que o git executa antes ou após certos eventos, por exemplo, o evento PRE-COMMIT
-é executado um pouco antes de cada `git commit` que você executar. Dessa forma você pode adicionar funcionalidades
-customizadas no seu processo de versionamento. Um uso muito comum disso é usar os hooks para automaticamente re formatar
+Hooks são gatilhos que o git executa antes ou depois de certos eventos, por exemplo, o evento PRE-COMMIT
+é executado um pouco antes de cada `git commit` que você executar. Dessa forma, você pode adicionar funcionalidades
+customizadas no seu processo de versionamento. Um uso muito comum disso é usar os hooks para automaticamente reformatar
 seu código antes de todo commit. 
 
 Os hooks na verdade são arquivos de script que são encontrados em `.git/hooks`
@@ -48,8 +48,8 @@ Os hooks na verdade são arquivos de script que são encontrados em `.git/hooks`
 
 ## Quem foi que fez isso?!?
 
-Em algum momento você querer saber quem raios escreveu essa porcaria de código e o git rapidamente irá refrescar a
-sua memória e mostrar que foi você mesmo que escreveu isso... mês passado.
+Em algum momento você vai querer saber quem raios escreveu essa porcaria de código e o git rapidamente refrescará a
+sua memória e mostrará que foi você mesmo quem escreveu isso... no mês passado.
 
 ### `git blame`
 
@@ -79,7 +79,7 @@ O reflog é similar ao log, mas em vez de listar commits ele lista as mudanças 
 
 ### `git reflog`
 
-Comando que lista modificações às suas referências
+Comando que lista modificações nas suas referências
 
 `git reflog -10`
 
@@ -98,11 +98,11 @@ a23a48b HEAD@{9}: commit: Simplifique visao geral
 
 ##  O que é o **stash**?
 
-O stash é um salva vidas para quando você tem algumas modificações no seu repositório e quer trocar de branchs sem ter
-que criar um novo commit. Então você joga essas modificações para o stash, faz o que você precisa fazer sem maiores
-conflitos e depois você desempilha do seu stash aquelas modificações.
+O stash é um salva-vidas para quando você tem algumas modificações no seu repositório e quer trocar de branchs sem ter
+que criar um novo commit. Então você as joga para o stash, faz o que precisa fazer sem maiores
+conflitos e depois você as desempilha do seu stash.
 
-Tome cuidado ao usá-lo, as vezes colocamos modificações no stash para nunca mais lembrarmos delas.
+Tome cuidado ao usá-lo. Às vezes colocamos modificações no stash para nunca mais lembrarmos delas.
 
 ### `git stash`
 
@@ -114,21 +114,21 @@ Desempilha modificações do `stash`
 
 ## O que é **cherry-pick**?
 
-Cherry-pick é um comando muito pontual, ele é como se fosse um rebase de um commit só para qualquer lugar do seu
-histórico. Literalmente você copia um commit de um lugar e encaixa ele em um outro commit.
+Cherry-pick é um comando muito pontual. Ele é como se fosse um rebase de um commit só para qualquer lugar do seu
+histórico. Você literalmente copia um commit de um lugar e o encaixa em outro commit.
 
 ### `git cherry-pick`
 
-Re cria commit em outra posição do histórico
+Recria commit em outra posição do histórico
 
 ## O que é **bisect**?
 
-O bisect auxilia você a pesquisar de forma binária uma linha de trabalho entre 2 commits, o git da um checkout para
+O bisect auxilia você a pesquisar de forma binária uma linha de trabalho entre 2 commits. O git dá um checkout para
 certos commits intermediários perguntando se era essa a versão que você estava procurando até que você o encontre.
 
 ### `git bisect`
 
-Executa uma busca binária interativa em busca de algum commit específico.
+Executa uma busca binária interativa à procura de algum commit específico.
 
 ---
 
