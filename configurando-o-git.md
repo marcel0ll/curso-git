@@ -7,10 +7,10 @@ repositório.
 
 ## Configurações Globais
 
-Para começarmos a usar o git é necessário configurar o seu usuário globalmente para que
+Para começarmos a usar o git, é necessário configurar o seu usuário globalmente para que
 o git possa registrar a cada etapa QUEM foi o AUTOR das modificações.
 
-Para isso precisaremos configurar o seu `email` e seu nome(`name`) de usuário:
+Para isso, precisaremos configurar o seu `email` e seu nome(`name`) de usuário:
 
 ```sh
 git config --global user.email "<seu.endereço.de@email.com>"
@@ -24,8 +24,8 @@ Nesse arquivo podem estar configurados diversas opções do seu git, como aliase
 para comandos, qual editor usar para escrever commits, o email e nome de usuário
 padrão, etc.
 
-Segue abaixo o meu arquivo de configuração que uso normalmente, no momento só se atente
-que o que configuramos nos comandos acima agora estão registrados aqui.
+Segue abaixo o meu arquivo de configuração que uso normalmente. No momento, só se atente
+que o que configuramos nos comandos acima estão agora registrados aqui.
 
 ```Git Config
 [user]
@@ -51,7 +51,7 @@ que o que configuramos nos comandos acima agora estão registrados aqui.
 
 No momento não cabe entrar em muitos detalhes do que é possível configurar
 no arquivo `.git/config` e nos outros arquivos da pasta `.git`, mas é importante
-saber que elas existem. Em outras partes do curso, iremos voltar a comentar sobre
+saber que elas existem. Em outras partes do curso, voltaremos a comentar sobre
 essas configurações locais.
 
 ---
