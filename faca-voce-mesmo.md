@@ -1,6 +1,6 @@
 # Faça você mesmo
 
-Em cada um das seções da aula tem uma pequena parte detacada com "Faça você mesmo:",
-siga essas etapas como exercício:
+Cada um das seções da aula tem uma pequena parte destacada com "Faça você mesmo:".
+Siga essas etapas como exercício:
 
-TODO: adicionar link para todos os faça você mesmo
+TODO: adicionar link para todos os "faça você mesmo"
