@@ -126,4 +126,4 @@ git log
 ---
 
 [Anterior](branch.md)
-[Pŕoximo](local-remote.md)
+[Próximo](local-remote.md)

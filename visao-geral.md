@@ -12,4 +12,4 @@ Editado durante o curso
 ---
 
 [Anterior](motivacao.md)
-[Pŕoximo](configurando-o-git.md)
+[Próximo](configurando-o-git.md)

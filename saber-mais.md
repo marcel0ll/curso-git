@@ -133,4 +133,4 @@ Executa uma busca binária interativa à procura de algum commit específico.
 ---
 
 [Anterior](local-remote.md)
-[Pŕoximo](fluxos.md)
+[Próximo](fluxos.md)

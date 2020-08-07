@@ -70,4 +70,4 @@ git push --set-upstream origin master
 ---
 
 [Anterior](merge-rebase.md)
-[Pŕoximo](saber-mais.md)
+[Próximo](saber-mais.md)

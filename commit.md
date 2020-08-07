@@ -146,4 +146,4 @@ Iniciando o nosso curso com um commit descritivo
 ---
 
 [Anterior](stage.md)
-[Pŕoximo](branch.md)
+[Próximo](branch.md)

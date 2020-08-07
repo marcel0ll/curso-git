@@ -125,4 +125,4 @@ git checkout dev
 ---
 
 [Anterior](commit.md)
-[Pŕoximo](merge-rebase.md)
+[Próximo](merge-rebase.md)

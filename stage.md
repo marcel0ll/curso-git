@@ -81,4 +81,4 @@ desde o último commit. Ou a diferença entre dois commits.
 ---
 
 [Anterior](repositorio.md)
-[Pŕoximo](commit.md)
+[Próximo](commit.md)

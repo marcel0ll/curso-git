@@ -7,4 +7,4 @@ No futuro, essa seção será melhor detalhada.
 ---
 
 [Anterior](saber-mais.md)
-[Pŕoximo](exercicio-1.md)
+[Próximo](exercicio-1.md)

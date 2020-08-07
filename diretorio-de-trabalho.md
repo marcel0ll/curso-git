@@ -45,4 +45,4 @@ stage.md
 ---
 
 [Anterior](configurando-o-git.md)
-[Pŕoximo](repositorio.md)
+[Próximo](repositorio.md)

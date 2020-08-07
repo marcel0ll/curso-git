@@ -106,4 +106,4 @@ git status
 ---
 
 [Anterior](diretorio-de-trabalho.md)
-[Pŕoximo](stage.md)
+[Próximo](stage.md)

@@ -66,4 +66,4 @@ git config --global user.name "<seu_nome_de_usuario>"
 ---
 
 [Anterior](visao-geral.md)
-[Pŕoximo](diretorio-de-trabalho.md)
+[Próximo](diretorio-de-trabalho.md)
