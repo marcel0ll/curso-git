@@ -11,16 +11,18 @@ o-o-o-o-o-o-o-o-o-o-o (main)
 ```
 
 
-A ideia deste curso é auxiliar o aprendizado de git seguindo três etapas:
-- motivação : Por que aprender algo
-- teoria    : O que é isso
-- prática   : Como usar + exercícios de fixação
+A ideia deste curso é auxiliar o aprendizado de Git seguindo três etapas:
+- motivação : Por que aprender algo?
+- teoria    : O que é isso?
+- prática   : Como utilizar e exercícios de fixação
 
-O curso tem como intenção exigir o mínimo de outras tecnologias que não o próprio git. Dessa forma, evita-se 
-qualquer linguagem de programação específica e são utilizados arquivos de texto .md para teoria e práticas.
+O curso tem como intenção exigir o mínimo de outras tecnologias que não o
+próprio Git. Dessa forma, evita-se qualquer linguagem de programação específica
+e são utilizados arquivos de texto .md para teoria e práticas.
 
-Alguns comandos ou argumentos que facilitam o trabalho do dia a dia serão intencionalmente ignorados a fim 
-de apresentar boas práticas no uso da ferramenta git.
+Alguns comandos ou argumentos que facilitam o trabalho do dia a dia serão
+intencionalmente ignorados a fim de apresentar boas práticas no uso da
+ferramenta Git.
 
 # Organização do curso
 
@@ -28,9 +30,10 @@ O curso está organizado nas seguintes partes e seções:
 
 ## Parte 1: Aula Expositiva
 
-Durante essa parte, um palestrante falará sobre cada uma das seguintes seções
-e ao mesmo tempo mostra em um terminal sobre o que está falando. Aconselha-se
-a quem está assistindo ao curso que acompanhe conforme conseguir o conteúdo apresentado.
+Durante essa parte, um palestrante falará sobre cada uma das seguintes seções e
+ao mesmo tempo mostra em um terminal sobre o que está falando. Aconselha-se a
+quem está assistindo ao curso que acompanhe conforme conseguir o conteúdo
+apresentado.
 
 ## Parte 2: Prática
 
@@ -41,25 +44,25 @@ na execução das tarefas listadas.
 
 ## 1. Aula
 
-1. [O que é o git e por que eu deveria me importar?](motivacao.md)
+1. [O que é o Git e por que eu deveria me importar?](motivacao.md)
     - As duas ferramentas mais importantes
     - Sistema de controle de versões (vcs)
     - O dia a dia
     - Comandos
       - `git help`
 
-1. [Visão geral do git](visao-geral.md)
+1. [Visão geral do Git](visao-geral.md)
 
-1. [Configurando o git](configurando-o-git.md)
+1. [Configurando o Git](configurando-o-git.md)
     - Configurações Globais
     - Configurações Locais
 
 1. [Diretório de trabalho](diretorio-de-trabalho.md)
 
-1. [O repositório git](repositorio.md)
+1. [O repositório Git](repositorio.md)
     - Iniciando um repositório
     - Checando o resporitório
-    - O diretório git
+    - O diretório Git
     - Comandos
       - `git init`
       - `git status`
@@ -73,14 +76,14 @@ na execução das tarefas listadas.
       - `git add`
       - `git reset`
       - `git diff`
-    
+
 1. [A base de tudo, o **commit**](commit.md)
     - O que é um **commit**?
     - Comandos
       - `git commit`
       - `git log`
     - Boas práticas ao criar um **commit**
-    
+
 1. [Dividir para conquistar!](branch.md)
     - O que é um **ref**?
     - O que é um **branch**?
@@ -91,7 +94,7 @@ na execução das tarefas listadas.
       - `git tag`
       - `git checkout`
 
-1. [Juntando o trabalho](merge-rebase.md) 
+1. [Juntando o trabalho](merge-rebase.md)
     - O que é um **merge**?
     - O que é um **rebase**?
     - Comandos
@@ -99,7 +102,7 @@ na execução das tarefas listadas.
       - `git rebase`
     - O que é um conflito?
     - Resolvendo conflitos
-    
+
 1. [Local e remotes](local-remote.md)
     - O que é o **local**?
     - O que é um **remote**?
@@ -109,7 +112,7 @@ na execução das tarefas listadas.
       - `git fetch`
       - `git push`
       - `git pull`
-    
+
 1. [Saiba mais](saber-mais.md)
     - Padrões de commit
       - Convertional commits
@@ -127,8 +130,8 @@ na execução das tarefas listadas.
     - O que é **bisect**?
       - `git bisect`
     - O que são **hooks**?
-    
-1. [Fluxos de trabalho para git](fluxos.md)
+
+1. [Fluxos de trabalho para Git](fluxos.md)
 
 ## 2. Prática
 

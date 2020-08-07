@@ -1,11 +1,11 @@
 ## Diretório de trabalho
 
-Parece até inútil ter essa seção dentro do curso, mas na verdade 
+Parece até inútil ter essa seção dentro do curso, mas na verdade
 é importante deixarmos explícitas todas as partes e com o diretório de trabalho
 não é diferente.
 
-O diretório de trabalho nada mais é que a pasta raiz do repositório, onde se 
-encontram a árvore de arquivos e as pastas. O git irá da sua própria forma 
+O diretório de trabalho nada mais é que a pasta raiz do repositório, onde se
+encontram a árvore de arquivos e as pastas. O Git irá da sua própria forma
 espelhar a estrutura de arquivos da pasta de trabalho através das diversas
 modificações que forem feitas nesses aquivos.
 

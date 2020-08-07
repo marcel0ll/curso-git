@@ -2,7 +2,7 @@
 
 Segue abaixo uma série de passos para exercitar os conceitos apresentados:
 
-* Configurar git (user.name, user.email)
+* Configurar Git (user.name, user.email)
 * Criar nova pasta `pc1-curso-git-ex-1`
 * Iniciar repositório local
 * Mostrar Status
@@ -35,7 +35,7 @@ Adicione um texto exemplificando uma edição de arquivo de texto
 ```
 * Mostrar log
 * Criar repositório no Github (curso-git-ex-1)
-* Configurar no pc1/curso-git-ex-1 o remote origin 
+* Configurar no pc1/curso-git-ex-1 o remote origin
 ```
 git remote add origin <url-do-repositório>
 ```
@@ -47,7 +47,7 @@ git push --set-upstream origin master
 * Mudar para branch `dev`
 * Editar arquivo README.md:
 ```
-# Exercício 1 do curso git
+# Exercício 1 do curso Git
 
 Escreva um texto abaixo do título como desejar
 
@@ -83,17 +83,18 @@ Arrume título do arquivo README
 
 Alguém esqueceu que teremos mais de uma tarefa no curso
 ```
-* Enviar modificações ao github
-* Voltar à pasta pc1/curso-git-ex-1 
+* Enviar modificações ao Github
+* Voltar à pasta pc1/curso-git-ex-1
 * Pegar atualizações do remote
 * Mudar para branch `master`
 * Baixar modificações do `origin/master` para `master`
 * Dar merge do branch `dev`
 * Resolver conflito no README.md
 * Executar commit
-* Mandar modificações para o github
+* Mandar modificações para o Github
 
-Ao finalizar a lista de passos acima, postar o link de seu repositório público no [github](https://github.com/marcel0ll/curso-git/issues/1)
+Ao finalizar a lista de passos acima, postar o link de seu repositório público
+no [github](https://github.com/marcel0ll/curso-git/issues/1)
 
 ---
 
