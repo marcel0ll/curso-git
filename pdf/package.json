@@ -1,0 +1,25 @@
+{
+  "name": "curso-git-pdf",
+  "version": "1.0.0",
+  "description": "Book builder",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcel0ll/curso-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcel0ll/curso-git/issues"
+  },
+  "homepage": "https://github.com/marcel0ll/curso-git#readme",
+  "dependencies": {
+    "duplexer": "^0.1.1",
+    "markdown-pdf": "^10.0.0",
+    "split": "^1.0.1",
+    "through": "^2.3.8"
+  }
+}
